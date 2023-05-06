@@ -6868,19 +6868,21 @@ input, select, textarea {
 			display: block;
 			position: relative;
 			overflow: hidden;
-			width: 22.5rem;
-			max-width: 75vw;
+			/*width: 22.5rem;*/
+			height: 22.5rem;
+			max-height: 75vw;
+			/*max-width: 75vw;*/
 		}
-
+            /* I think this is where I want to be */
 			.gallery.style2 article .image {
 				display: block;
-				width: 100%;
+				height: 100%; /* changed to height */
 				border-radius: 0;
 			}
 
 				.gallery.style2 article .image img {
 					display: block;
-					width: 100%;
+					height: 100%; /* changed to height */
 					border-radius: 0;
 				}
 
