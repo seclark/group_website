@@ -5018,7 +5018,7 @@ input, select, textarea {
 /* Spotlight (style2) */
 
 	.spotlight.style2 {
-		padding: 7rem 7rem 5rem 7rem ;
+		padding: 5rem 7rem 4rem 7rem ; /* original 7rem 7rem 5rem 7rem */
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
@@ -7224,6 +7224,7 @@ input, select, textarea {
 
 		.wrapper.style1 > .inner.medium {
 			width: 48rem;
+			padding: 0rem 3.5rem 0rem 3.5rem; /*top right bottom left*/
 		}
 
 		.wrapper.style1 > .inner.small {
